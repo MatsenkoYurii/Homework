@@ -1,0 +1,7 @@
+# Mac files
+.DS_Store
+_MACOSX
+
+# IDEA and editors
+.idea
+.vscode
