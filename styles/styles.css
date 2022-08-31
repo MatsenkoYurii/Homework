@@ -20,3 +20,27 @@ h3 {
   color: darkgreen;
   margin-top: 50px;
 }
+#Text {
+  color: blue;
+  margin-top: 25px;
+}
+.Text-red {
+  color: red;
+  margin-top: 25px;
+}
+.Text-red.Text2 {
+  color: rgb(245, 150, 169);
+  margin-top: 15px;
+}
+* {
+  text-transform: capitalize;
+}
+p b {
+  color: darkturquoise;
+  margin-top: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+b + i {
+  color: rgb(205, 95, 105);
+}
