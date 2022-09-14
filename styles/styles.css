@@ -20,68 +20,104 @@ html {
   font-family: "roboto", sans-serif;
 }
 
-.image {
-  width: 130px;
-  height: 130px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
 body {
   background-color: #e5e5e5;
-  margin: auto;
 }
 
-.card {
-  background-color: #817a7a;
-  width: 200px;
-  height: 226px;
-}
-.card-1 {
-  background-color: #817a7a;
-  width: 200px;
-  height: 226px;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-.card-2 {
-  background-color: #817a7a;
-  width: 200px;
-  height: 226px;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+.clear-fix {
+  display: block;
+  clear: both;
 }
 
-.text-1 {
-  margin-top: 10px;
-  text-align: center;
-  font-family: "Roboto";
+.text_1 {
+  width: 200px;
+  height: 75px;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: rgb(0, 0, 0);
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 63px;
 }
-.text-2 {
-  margin-top: 10px;
-  font-family: "Roboto";
+.text_2 {
+  width: 100px;
+  height: 37.5px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #ffffff;
+  margin-top: 31px;
 }
-.card-maine {
-  align-items: center;
-  display: flex;
-  text-align: center;
+
+.block_1 {
+  width: 1100px;
+  background: #c4c4c4;
+  padding: 50px;
+  margin-top: 100px;
 }
-.card-maine2 {
-  align-items: center;
-  display: flex;
+
+.block_gray {
+  width: 100%;
+  background: #e6e6e6;
+}
+
+.block_gray:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.block_1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.block_gray,
+.block_pink_large,
+.block_pink_small {
+  float: left;
+}
+
+.block_gray_primary {
+  margin: 50px 0;
+}
+
+.block_pink_large {
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+}
+
+.secondary {
+  margin-left: 700px;
+}
+
+.block_pink_small {
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+}
+
+.specialy {
+  margin: 0 7.5px 0 15px;
+}
+
+.specialy2 {
+  margin: 0 15px 0 7.5px;
+}
+
+.revant {
+  margin-right: 455px;
+}
+
+.aff {
+  margin-right: 15px;
+}
+
+.add {
+  margin-right: 270px;
 }
