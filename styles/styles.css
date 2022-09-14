@@ -16,6 +16,10 @@ img {
   padding-right: 15px;
 }
 
+html {
+  font-family: "roboto", sans-serif;
+}
+
 .image {
   width: 130px;
   height: 130px;
@@ -60,6 +64,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
+  color: rgb(0, 0, 0);
 }
 .text-2 {
   margin-top: 10px;
@@ -69,6 +74,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+  color: rgb(0, 0, 0);
 }
 .card-maine {
   align-items: center;
