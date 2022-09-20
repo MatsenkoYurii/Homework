@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск</title>
+    <link rel="stylesheet" href="../fonts/font.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+</head>
+
+<body class="conteiner">
+    <header>
+        <nav class="nav_text">
+            <a href="../index.html" style="text-decoration:none">Регистрация</a>
+            <a href="./autorisation.html" style="text-decoration:none">Авторизация</a>
+            <a href="./search.html" style="text-decoration:none">Поиск</a>
+        </nav>
+    </header>
+    <main class="main3">
+
+        <form class="form" action="https://fom.in.ua/echo" method="post">
+            <h1>Поиск</h1>
+            <fieldset>
+                <legend class="fieldset">Тип кузова</legend>
+
+                <p class="p1">
+                    <label for="type_of_car_body1">
+                        <input id="type_of_car_body1" name="type_of_car_body1" type="checkbox" value="Универсал">
+                        <span>Универсал</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_body2">
+                        <input id="type_of_car_body2" name="type_of_car_body2" type="checkbox" value="Купе">
+                        <span>Купе</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_body3">
+                        <input id="type_of_car_body3" name="type_of_car_body3" type="checkbox" value="Седан">
+                        <span>Седан</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_body4">
+                        <input id="type_of_car_body4" name="type_of_car_body4" type="checkbox" value="Хетчбек">
+                        <span>Хетчбек</span>
+
+                    </label>
+                </p>
+            </fieldset>
+
+            <p class="p1">Марка авто</p>
+            <p class="p1">
+
+                <select name="car_brand">
+                    <option value="none" disabled selected>Выберете марку авто</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Kia">Kia</option>
+                    <option value="Mercedes-Benz">Mercedes-Benz</option>
+                    <option value="Toyota">Toyota</option>
+                </select>
+            </p>
+            <p class="p1">Страна производитель</p>
+            <p class="p1">
+                <select name="Producing_country">
+                    <option value="none" disabled selected>Выберете страну</option>
+                    <option value="Германия">Германия</option>
+                    <option value="Италия">Италия</option>
+                    <option value="Корея">Корея</option>
+                    <option value="США">США</option>
+                    <option value="Франция">Франция</option>
+                    <option value="Япония">Япония</option>
+                </select>
+            </p>
+
+            <p class="p1">Цена авто</p>
+            <p class="p1">От
+                <input type="number" name="car_price_from" min="1000" max="1000000" placeholder="1000">
+                До
+                <input type="number" name="car_price_until" min="1000" max="1000000" placeholder="1000000">
+            </p>
+            <p class="p1">Год выпуска</p>
+            <p class="p3">От
+                <input type="number" name="car_year_from" min="1990" max="2022" placeholder="1990 год">
+                До
+                <input type="number" name="car_year_until" min="1990" max="2022" placeholder="2022 год">
+            </p>
+
+            <fieldset class="fieldset">
+                <legend>Состояние авто</legend>
+
+                <p class="p1">
+                    <label for="type_of_car_condition1">
+                        <input id="type_of_car_condition1" name="type_of_car_condition1" type="checkbox" value="Новое">
+                        <span>Новое</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_condition2">
+                        <input id="type_of_car_condition2" name="type_of_car_condition2" type="checkbox"
+                            value="С пробегом">
+                        <span>С пробегом</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_condition3">
+                        <input id="type_of_car_condition3" name="type_of_car_condition3" type="checkbox"
+                            value="Было в ДТП">
+                        <span>Было в ДТП</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_condition4">
+                        <input id="type_of_car_condition4" name="type_of_car_condition4" type="checkbox"
+                            value="Нерастаможенное">
+                        <span>Нерастаможенное</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_condition5">
+                        <input id="type_of_car_condition5" name="type_of_car_condition5" type="checkbox"
+                            value="Как новое">
+                        <span>Как новое</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_condition6">
+                        <input id="type_of_car_condition6" name="type_of_car_condition6" type="checkbox"
+                            value="Конфискат">
+                        <span>Конфискат</span>
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <legend>Тип топлива</legend>
+
+                <p class="p1">
+                    <label class="fuel_type">
+                        <input type="radio" name="fuel_type" value="Бензин">
+                        <span>Бензин</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label class="fuel_type">
+                        <input type="radio" name="fuel_type" value="Дизель">
+                        <span>Дизель</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label class="fuel_type">
+                        <input type="radio" name="fuel_type" value="Гибрид">
+                        <span>Гибрид</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label class="fuel_type">
+                        <input type="radio" name="fuel_type" value="Електро">
+                        <span>Електро</span>
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <legend>Тип КПП</legend>
+
+                <p class="p1">
+                    <label class="gearbox_type">
+                        <input type="radio" name="gearbox_type" value="Механика">
+                        <span>Механика</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label class="gearbox_type">
+                        <input type="radio" name="gearbox_type" value="Автомат">
+                        <span>Автомат</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label class="gearbox_type">
+                        <input type="radio" name="gearbox_type" value="Вариатор">
+                        <span>Вариатор</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label class="gearbox_type">
+                        <input type="radio" name="gearbox_type" value="Типтроник">
+                        <span>Типтроник</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label class="gearbox_type">
+                        <input type="radio" name="gearbox_type" value="Робот">
+                        <span>Робот</span>
+                    </label>
+                </p>
+            </fieldset>
+
+            <p class="p1">Цвет авто</p>
+            <p class="p1">
+                <input type="color" name="color">
+            </p>
+
+            <fieldset class="fieldset">
+                <legend>Опции</legend>
+
+                <p class="p1">
+                    <label for="type_of_car_option_1">
+                        <input id="type_of_car_option_1" name="type_of_car_option_1" type="checkbox"
+                            value="Кожаный салон">
+                        <span>Кожаный салон</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_2">
+                        <input id="type_of_car_option_2" name="type_of_car_option_2" type="checkbox"
+                            value="Регулированые сидения салона по высоте">
+                        <span>Регулированые сидения салона по высоте</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_3">
+                        <input id="type_of_car_option_3" name="type_of_car_option_3" type="checkbox"
+                            value="Вентилируемые сиденья">
+                        <span>Вентилируемые сиденья</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_4">
+                        <input id="type_of_car_option_4" name="type_of_car_option_4" type="checkbox" value="Люк">
+                        <span>Люк</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_5">
+                        <input id="type_of_car_option_5" name="type_of_car_option_5" type="checkbox" value="Панорама">
+                        <span>Панорама</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_6">
+                        <input id="type_of_car_option_6" name="type_of_car_option_6" type="checkbox"
+                            value="Электростеклоподъёмники">
+                        <span>Электростеклоподъёмники</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_7">
+                        <input id="type_of_car_option_7" name="type_of_car_option_7" type="checkbox"
+                            value="Кондиционер">
+                        <span>Кондиционер</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_8">
+                        <input id="type_of_car_option_8" name="type_of_car_option_8" type="checkbox"
+                            value="Усилитель руля">
+                        <span>Усилитель руля</span>
+                    </label>
+                </p>
+                <p class="p1">
+                    <label for="type_of_car_option_9">
+                        <input id="type_of_car_option_9" name="type_of_car_option_9" type="checkbox"
+                            value="Регулировка руля">
+                        <span>Регулировка руля</span>
+                    </label>
+                </p>
+            </fieldset>
+
+            <p class="p4">
+                <button class="button1">
+                    Поиск
+                </button>
+            </p>
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

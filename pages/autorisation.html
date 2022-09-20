@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регистрация</title>
-    <link rel="stylesheet" href="./fonts/font.css">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="../fonts/font.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 
 </head>
 
 <body class="conteiner">
     <header>
         <nav class="nav_text">
-            <a href="./index.html" style="text-decoration:none">Регистрация</a>
-            <a href="./pages/autorisation.html" style="text-decoration:none">Авторизация</a>
-            <a href="./pages/search.html" style="text-decoration:none">Поиск</a>
+            <a href="../index.html" style="text-decoration:none">Регистрация</a>
+            <a href="./autorisation.html" style="text-decoration:none">Авторизация</a>
+            <a href="./search.html" style="text-decoration:none">Поиск</a>
         </nav>
     </header>
-    <main class="main1">
-        <h1>Регистрация</h1>
+    <main class="main2">
+        <h1>Авторизация</h1>
         <form action="https://fom.in.ua/echo" method="post">
             <p class="p1">
                 <label for="mail">Емейл: </label>
@@ -30,16 +30,19 @@
             </p>
 
             <p class="p1">
-                <label for="password1">Подтвердите пароль:</label>
-                <input id="password1" name="password_confirm" type="password" required placeholder="Подтвердите пароль">
+                <label for="save_password">
+                    <input id="save_password" type="checkbox" value="save_password">
+                    <span>Сохранить пароль</span>
+                </label>
             </p>
             <p class="p2">
                 <button class="button">
-                    Зарегистрироваться
+                    Вход
                 </button>
             </p>
-
         </form>
+
+
 
     </main>
     <footer>
