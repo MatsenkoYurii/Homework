@@ -23,3 +23,161 @@ html {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+a {
+  padding: 0px 42px 0px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.a1 {
+  padding: 0px 42px 0px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #34547a;
+}
+
+.nav1 {
+  margin-top: 79px;
+}
+
+.div1 {
+  margin-top: 162px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+}
+.div2 {
+  width: 225px;
+  height: 65px;
+  margin-top: 65px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  background-color: #34547a;
+}
+.div3 {
+  height: 250px;
+  width: auto;
+  background: #34547a;
+  margin-top: 100px;
+}
+.div4 {
+  display: inline-block;
+  margin-top: 100px;
+}
+.div5 {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.div6 {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.img1 {
+  float: left;
+  margin: auto;
+}
+
+.p1 {
+  margin-top: 60px;
+  width: 540px;
+  height: 67px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.p2 {
+  padding-top: 19px;
+}
+.p3 {
+  width: 540px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+.p3_1 {
+  width: 540px;
+  padding-bottom: 57px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+.p4 {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+.p5 {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.h2_1 {
+  margin-top: 253px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.h2_2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.h3 {
+  padding-top: 50px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.div_7 {
+  height: 151px;
+  width: auto;
+  background: #34547a;
+  margin-top: 100px;
+}
+.Content {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.footer {
+  margin-top: 50px;
+}
